@@ -60,7 +60,6 @@ export default function Home() {
         </div>
 
         <div className="home__filters">
-          //client side rendering
           <SearchBar setManufacturer={setMnufacturer}
           setModel={setModel} />
           {/* <SearchBar /> */}
